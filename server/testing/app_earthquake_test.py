@@ -1,6 +1,8 @@
 from os import environ
 import re
 import json
+from models import db, Earthquake
+
 
 from app import app
 
